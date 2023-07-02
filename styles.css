@@ -40,11 +40,11 @@ header a{
 
 body{
     background-color: #1F2937;    
-    margin: none;
-    
+    margin: 0px;
 }
 
 .top{    
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,9 +81,114 @@ body{
 }
 
 #signUpButton{
+
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 15px;
     padding: 4px 25px;
     border-radius: 5px;
+}
+
+.information{
+    
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.information h2{
+    
+    flex: 0 0 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.information div{
+    
+    text-align: center;
+    font-size: 12px;
+    width: 100px;
+}
+
+ .information p{
+    margin-top: 2px;
+}
+
+.information img{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px ridge #3882f6;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    border: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.quote p{
+    width: 40%;
+    font-size: 20px;
+}
+
+#author{
+    align-self: last baseline;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.help{
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;  
+}
+.help1{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+}
+
+.help2{
+    width: 50%;
+    color: #e5e7eb;
+    
+}
+
+#signUpButton2{
+    color: #e5e7eb;
+    border: 2px ridge #e5e7eb;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 4px 25px;
+    
+}
+
+.help2 h4{
+    margin: 0px;
+    padding-top: 20px;
+}
+.help2 p{
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+footer p{
+    text-align: center;
+    color: #e5e7eb;
 }
