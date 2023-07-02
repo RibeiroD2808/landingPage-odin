@@ -1,0 +1,89 @@
+
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    margin-top: 0px;
+    background-color: #1F2937;    
+    margin: none;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+header p{
+    
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+ 
+}
+
+header a{
+    
+    font-size: 18px;
+    color: #e5e7eb;    
+    
+    
+}
+
+.headerLinks{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+ 
+}
+
+
+body{
+    background-color: #1F2937;    
+    margin: none;
+    
+}
+
+.top{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.top h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.top p{
+
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+#top1{
+    width: 300px;
+    margin-bottom: 20px;
+}
+#top2{
+    background-color: grey;
+    width: 400px;
+    height: 180px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
+
+#signUpButton{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 15px;
+    padding: 4px 25px;
+    border-radius: 5px;
+}
